@@ -6,7 +6,7 @@ const Logo = () => {
     <div className="lg:flex">
       <Link href="/">
         <Image
-          className="h-6 w-auto"
+          className="h-6 w-auto bg-white px-1 py-0.5 rounded-md"
           src="/logo.svg"
           alt="Logo"
           width={100}

@@ -8,11 +8,11 @@ const Landing = () => {
         <div className=" relative mx-auto px-4 ">
           <div className="mx-auto grid max-w-160 grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-5">
             <div className="flex flex-col lg:pb-6 lg:col-span-2 justify-center">
-              <h1 className="mt-4 text-6xl font-extrabold leading-none tracking-tight text-slate-900 sm:text-5xl sm:leading-[3.5rem]">
+              <h1 className="mt-4 text-6xl font-extrabold leading-none tracking-tight text-white sm:text-5xl sm:leading-[3.5rem]">
                 Protocol
               </h1>
 
-              <p className="mt-6 text-base leading-7 text-slate-700">
+              <p className="mt-6 text-base leading-7 text-white">
                 It does not matter if you have an API if nobody knows how to use
                 it. Teach people the ins and outs of OAuth 2.0 and JWTs in style
                 with Protocol, a beautiful API documentation template.

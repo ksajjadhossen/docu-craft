@@ -16,7 +16,6 @@ const SearchBox = ({ docs }) => {
       doc.title.toLowerCase().includes(value.toLowerCase()),
     );
     setSearchResults(foundDocs);
-    console.log("Searching for:", foundDocs);
   };
 
   const debouncedSearch = useDebounce(handleSearch, 500);
